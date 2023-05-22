@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Ankit- Developer Portfolio</title>
-    <!-- <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+      <style>
         *{
             margin: 0; 
             padding: 0;
@@ -53,9 +54,9 @@ body{
    }
    .firstSection{
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
-    margin: 30px 0;
+    margin: 130px 0;
    }
 
    .firstSection > div{
@@ -66,9 +67,24 @@ body{
     font-size:2rem;
     margin: 30px 0;
    }  
+   .leftSection .buttons{
+    padding: 23px;
+   }
+
+   .leftSection .btn{
+    padding:10px 12px;
+    margin: 2px;
+    background: #1e2167;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+   } 
 
    .rightSection img{
-    width:80%;
+    width:%;
+    
    }
    .purple{
     color:rgb(166, 166, 224);
@@ -82,9 +98,61 @@ body{
    .secondSection{
     max-width: 80vw;
     margin: auto;
+    height: 80vh;
    }
    .secondSection{
     font: size 1.5rem;
+   }
+   .secondSection .box{
+    background: white;
+    width: 60vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+   }
+   .secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin:0 100px ;
+   }
+   .image-top{
+    width:25px;
+    position: relative;
+    top: -32px;
+    left:-9px;
+   }
+   .vertical-title{ 
+    position: relative;
+    top: 65px;
+    width: 23px;
+   }
+   .vertical-desc{
+    position: relative;
+    top: 85px;
+    color:gray;
+    width: 150px;
+    font-size:9px; 
+   }
+   footer{
+    background-color: #0e0e1a;
+   }
+   .footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+   }
+   .footer ul{
+    list-style: none;
+   }
+
+   .footer > div{
+    width: 223px;
+   }
+   footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
    }
     </style>
 </head>
@@ -96,7 +164,7 @@ body{
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Servies</li>
+                <li>Services</li>
                 <li>Projects</li>
                <li>contact Me</li>
             </ul>
@@ -111,9 +179,21 @@ body{
             <div>and I am a passionate</div>
             
             <span id="element"></span>
+            <div>
+            <a href="https://www.linkedin.com/in/agupta281/">
+                <button class="btn">
+                    Linkedin
+                </button>
+            </a>
+            <a href="https://github.com/ankit0281">
+                <button class="btn">
+                    Github
+                </button>
+            </a>
+            </div>
             </div>
             <div class="rightSection">
- <img src="br.png" alt="">
+ <img src="bg.png" alt="">
             </div>
 
 <hr>
@@ -122,9 +202,108 @@ body{
             <span class="text- gray">What I have done so far</span>
             <h1>Work Experience</h1>
 
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Creating and maintaining web pages using HTML
+                        Working with other web developers to create complete web applications
+                        Working with web designers to create the overall look and feel of a website
+                        Testing and debugging HTML code
+                        Optimizing HTML code for performance and accessibility 
+                    </div>
+                </div>
+                
+                    <div class="vertical">
+                        <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-title">
+                            CSS Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Create and maintain CSS stylesheets
+                            Design and implement CSS layouts
+                            Implement CSS animations and transitions
+                            Optimize CSS code for performance
+                            Troubleshoot CSS problems
+                            Work with a variety of different browsers and devices
+                            Stay up-to-date on the latest CSS trends
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-title">
+                            js Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Strong understanding of JavaScript
+                            Familiarity with HTML and CSS
+                            Ability to work independently and as part of a team
+                            Ability to learn new technologies quickly
+                            Problem-solving skills
+                            Communication skills
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="developer.png" alt="">
+                        <div class="vertical-title">
+                            java Developer
+                        </div>
+                        <div class="vertical-desc">
+                            Designing and developing Java applications
+                            Writing and maintaining Java code
+                            Testing and debugging Java applications
+                            Deploying Java applications to production
+                            Troubleshooting Java application problems
+                            Working with other software engineers and architects to design and implement 
+                            new features and functionality
+                            
+                        </div>
+                    </div>
+                      
+                        
+             </div>
+
         </section>
     </main>
-  
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ankit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                  
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                  
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>                  
+                </ul>
+            </div>
+            <div class="footer-rights">
+                
+            
+            </div>
+    </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
       <!-- Setup and start animation! -->
   <script>
